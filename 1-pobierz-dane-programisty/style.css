@@ -1,0 +1,13 @@
+.button {
+    position: absolute;
+    -webkit-appearence: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: black;
+    margin-top: 5px;
+    border: solid 2px black;
+    padding: 10px;
+    border-radius: 25px;
+    text-align: center;
+}
