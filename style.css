@@ -1,5 +1,7 @@
 body {
-    background: burlywood
+    /* background: burlywood */
+    background-image: url(img/prog_wall.jpg);
+    color: white;
 }
 
 .button {
@@ -7,22 +9,32 @@ body {
     -moz-appearance: button;
     appearance: button;
     text-decoration: none;
-    color: black;
+    color:white;
 
-    border: solid 2px black;
+    border: solid 2px white;
     padding: 10px;
     border-radius: 25px;
+    background: rgb(0, 0, 48);
+    max-width: 150px;
+    max-height: 300px;
+    margin-top: 10px;
 }
 
 #container {
     position: absolute;
-    border: black 5px solid;
+    border: white 5px solid;
     border-radius: 25px;
     width: 50%;
     height: 95%;
     left: 25%;
     right:25%;
     text-align: center;
+}
+
+#smallContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #title {
@@ -33,7 +45,6 @@ body {
 }
 
 .date {
-    margin-bottom: 30px;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -48,6 +59,6 @@ img {
 
 h1 {
     margin-top: 10%;
-    background: black;
-    color: burlywood;
+    background: white;
+    color: rgb(0, 0, 48);
 }
