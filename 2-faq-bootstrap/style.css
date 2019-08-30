@@ -1,0 +1,38 @@
+body {
+    background: whitesmoke;
+}
+
+header {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.5em;
+    color: lightslategray;
+}
+
+hr {
+    margin: 15px;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 15px;
+}
+
+.btn {
+    width: 100%;
+    border-radius: 0px;
+    border: lightgray solid 1px;
+    background: rgb(238, 237, 237);
+    color: rgb(227, 143, 66);
+    height: 50px;
+}
+
+.btn:focus {
+    text-decoration: underline;
+    box-shadow: none;
+}
+
+.card {
+    border-radius: 0px;
+
+
+}
