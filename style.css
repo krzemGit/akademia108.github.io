@@ -10,7 +10,7 @@ body {
     appearance: button;
     text-decoration: none;
     color:white;
-
+    min-width: 110px;
     border: solid 2px white;
     padding: 10px;
     border-radius: 25px;
