@@ -2,6 +2,11 @@ body {
     /* background: burlywood */
     background-image: url(img/prog_wall.jpg);
     color: white;
+    margin: 4px;
+}
+
+html {
+    height: 0px;
 }
 
 .button {
@@ -25,11 +30,11 @@ body {
     border: white 5px solid;
     border-radius: 25px;
     width: 50%;
-    height: 95%;
+    height: 97%;
     left: 25%;
     right:25%;
     text-align: center;
-    
+    margin-top:0px;
 }
 #midContainer {
     overflow: auto;
