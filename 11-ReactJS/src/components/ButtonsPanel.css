@@ -1,0 +1,20 @@
+.button-panel {
+    margin: 30px auto;
+}
+
+.button-panel button {
+    display: inline-block;
+    margin: 0 15px;
+    background: var(--border-decor-color);
+    border: 0;
+    padding: 10px 20px;
+}
+
+.incremency {
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+input {
+    width: 40px;
+}

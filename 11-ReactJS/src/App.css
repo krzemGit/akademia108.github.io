@@ -1,0 +1,28 @@
+:root {
+  --border-decor-color: darkgrey; 
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: rgb(224, 224, 224)
+}
+
+.App-header {
+  display: block;
+  background: black;
+  height: 30vh;
+  color: white;
+}
+
+h1 {
+  padding-top: 25px;
+  text-align: center;
+}
+
+#credentials {
+  text-align: center;
+  font-size: 1em;
+  font-style: italic
+}
