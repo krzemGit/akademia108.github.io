@@ -1,0 +1,16 @@
+h1 {
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 2.5em;
+}
+
+div {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+span {
+    color: red;
+}
