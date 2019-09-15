@@ -16,8 +16,8 @@ class ButtonsPanel extends Component {
     }
 
     counterIncremency = () => {
-        let Step = this._inputStep.value
-        this.props.incrementStep(Step)
+        let step = this._inputStep.value
+        this.props.incrementStep(step)
     }
 
     render() {

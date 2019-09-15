@@ -19,11 +19,11 @@ class Counter extends Component {
         }
     }
 
-    parentIncrementStep = (Step) => {
+    parentIncrementStep = (step) => {
         this.setState(() => {
-            if (Step > 0) {
+            if (step > 0) {
                 return {
-                    'incremency': parseFloat(Step)
+                    'incremency': parseInt(step)
                 }
             }
             else {
